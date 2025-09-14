@@ -147,6 +147,16 @@ section h3 {
 }
 
 /* CV / Research Cards */
+.cv-card.awards {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 1.1em;
+    font-style: italic; /* si tu veux un effet académique */
+    border: 2px solid #0044cc; /* même cadre bleu */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
 .cv-card {
     background: #e6f2e6; /* vert très clair */
     padding: 60px;        /* grand espace intérieur */
