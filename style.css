@@ -124,6 +124,16 @@ header nav ul li a:hover {
     margin: 5px 0;
 }
 
+.author {
+    font-weight: bold;
+}
+
+.title {
+    font-style: italic;
+    color: #0066cc; /* bleu */
+}
+
+
 /* =========================
    Sections Style (CV, Research)
 ========================= */
