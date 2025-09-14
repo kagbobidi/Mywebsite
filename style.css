@@ -48,7 +48,7 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Hero Section / Home */
+/* Hero Section */
 .hero {
     background: url('kalaimage.jpg') no-repeat center center/cover;
     color: #fff;
@@ -107,49 +107,4 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Section Titles */
-section h2 {
-    text-align: center;
-    margin: 40px 0 20px 0;
-    color: #004080;
-}
-
-section h3 {
-    text-align: center;
-    margin: 25px 0 15px 0;
-    color: #004080;
-}
-
-/* Contact Section */
-#contact {
-    background: #f9f9f9;
-    padding: 40px 20px;
-    text-align: center;
-}
-
-#contact p {
-    margin: 10px 0;
-    font-size: 16px;
-}
-
-/* Footer */
-footer {
-    background: #004080;
-    color: #fff;
-    text-align: center;
-    padding: 15px 0;
-    margin-top: 30px;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-    .hero h2 {
-        font-size: 36px;
-    }
-    header nav ul {
-        flex-direction: column;
-    }
-    header nav ul li {
-        margin: 10px 0;
-    }
-}
+/
