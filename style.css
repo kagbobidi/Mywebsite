@@ -57,6 +57,22 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
+header h1 {
+    font-size: 42px;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+}
+
+header h2 {
+    font-size: 22px;
+    margin: 5px 0 0 0;
+    font-weight: normal;
+    color: #ffcc00; /* exemple : jaune pour contraster */
+    text-align: center;
+}
+
+
 /* =========================
    Home Section
 ========================= */
