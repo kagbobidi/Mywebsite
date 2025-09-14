@@ -58,14 +58,14 @@ header nav ul li a:hover {
 }
 
 header h1 {
-    font-size: 42px;
+    font-size: 22px;
     margin: 0;
     color: #fff;
     text-align: center;
 }
 
 header h2 {
-    font-size: 62px;
+    font-size: 32px;
     margin: 5px 0 0 0;
     font-weight: normal;
     color: #ffcc00; /* exemple : jaune pour contraster */
