@@ -117,7 +117,7 @@ header nav ul li a:hover {
 .home-contact {
     text-align: center;
     font-size: 16px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .home-contact p {
@@ -135,36 +135,41 @@ section {
 /* Section Titles */
 section h2 {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     color: #004080;
     font-size: 36px;
 }
 
 /* Subsection Titles */
 section h3 {
-    margin-bottom: 15px;
+    margin-bottom: 25px; /* augmentée */
     color: #006400;
 }
 
 /* CV / Research Cards */
 .cv-card {
     background: #e6f2e6; /* vert très clair pour les cartes */
-    padding: 20px;
+    padding: 25px;
     border-radius: 10px;
     max-width: 800px;
-    margin: 25px auto 40px auto;
+    margin: 30px auto 50px auto;
     text-align: left;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.cv-card p {
-    margin: 12px 0;
+.cv-card p, .cv-card li {
+    margin: 10px 0; /* marge uniforme pour p et li */
     font-size: 16px;
 }
 
 .cv-card a {
     color: #004080;
     text-decoration: underline;
+}
+
+.cv-card ul {
+    padding-left: 20px;
+    list-style-type: disc;
 }
 
 /* =========================
@@ -191,5 +196,13 @@ footer {
 
     .cv-card {
         padding: 15px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
     }
 }
